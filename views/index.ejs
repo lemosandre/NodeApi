@@ -18,7 +18,7 @@
         <% if(alias){ %>
             <div>
                 Links:
-                <a target="_black" href="http://localhost:<%=PORT%>/<%=alias%>">http://localhost:<%=PORT%>/<%=alias%></a>
+                <a target="_black" href="https://nodeapiurl.herokuapp.com/<%=alias%>">http://localhost:<%=PORT%>/<%=alias%></a>
             </div>
         <% } %> 
 
@@ -34,10 +34,10 @@
             <tbody>
               <% shortUrls.forEach(it => { %>
                 <tr>
-                  <td><a target="_black"  href="http://localhost:8000/<%= it.id  %>"><%= it.id  %></a></td>
-                  <td><a target="_black"  href="http://localhost:8000/<%= it.id  %>">http://localhost:8000/<%= it.id  %></a></td>
+                  <td><a target="_black"  href="https://nodeapiurl.herokuapp.com/<%= it.id  %>"><%= it.id  %></a></td>
+                  <td><a target="_black"  href="https://nodeapiurl.herokuapp.com/<%= it.id  %>">http://localhost:8000/<%= it.id  %></a></td>
                   <td><a target="_black"  href="<%= it.url %>"><%= it.url %></a></td>
-                  <td><a  target="_black" href="http://localhost:8000/<%= it.id  %>"><%= it.data %></a></td>
+                  <td><a  target="_black" href="https://nodeapiurl.herokuapp.com/<%= it.id  %>"><%= it.data %></a></td>
                 </tr>
               <% }) %>
             </tbody>
