@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-   "start": "nodemon index.js "
+    "start": "nodemon index.js "
   },
   "type": "module",
   "dependencies": {
@@ -13,6 +13,7 @@
     "express": "^4.17.1",
     "knex": "^0.95.6",
     "mysql": "^2.18.1",
-    "yeast": "^0.1.2"
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
   }
 }
